@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/icon/icon.png" alt="Wpay" width="84">
+</p>
+
 # Wpay — Flutter E-Wallet
 
 A pixel-faithful e-wallet mobile app built in Flutter from the **"Wpay – E-Wallet Mobile App UI Kit"** (DhuhaCreative). Every screen from the kit is recreated, and the flows the kit didn't show (onboarding, auth, email verification, Face ID, full home) were designed in the same visual language.
