@@ -10,7 +10,22 @@ A pixel-faithful e-wallet mobile app built in Flutter from the **"Wpay – E-Wal
   <img src="media/wpay-demo.gif" alt="Wpay app walkthrough" width="300">
 </p>
 
-<p align="center"><em>Onboarding → Sign up → Face ID → Home → Transfer → Top up → History</em></p>
+<p align="center">
+  <em>Onboarding → Sign up → Face ID → Home → Transfer → Top up → History</em>
+</p>
+
+<p align="center">
+  <a href="media/wpay-demo.mp4">Watch the full demo (mp4)</a>
+  &nbsp;·&nbsp;
+  <a href="media/wpay-demo.gif">Animated GIF</a>
+</p>
+
+<p align="center">
+  <img alt="Flutter" src="https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter&logoColor=white">
+  <img alt="Dart" src="https://img.shields.io/badge/Dart-3.x-0175C2?logo=dart&logoColor=white">
+  <img alt="Platform" src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-6d28d9">
+  <img alt="Build" src="https://img.shields.io/badge/build-passing-brightgreen">
+</p>
 
 ## Features
 
@@ -22,6 +37,12 @@ A pixel-faithful e-wallet mobile app built in Flutter from the **"Wpay – E-Wal
 - **Payment history** — sortable transactions with a filter bottom sheet
 - **Scan QR** — in-app QR scanner screen
 - **Live state** — transfers and top-ups update the running balance and transaction list (in-memory sample data in `lib/state.dart`)
+
+## Tech stack
+
+- **Flutter & Dart** — single codebase for Android & iOS
+- **Custom theming** — colours sampled from the kit, **DM Sans** + **Space Mono** bundled
+- **Data layer** — in-memory wallet, cards, contacts and transactions in `lib/state.dart`, structured so a real backend can drop in later
 
 ## Screenshots
 
